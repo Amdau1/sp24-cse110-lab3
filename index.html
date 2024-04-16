@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,47 +11,76 @@
         <h1>Meeting Minutes</h1>
         <h2>Team Name: The Russell Inc</h2>
         <h3>Meeting Date: January 1, 2024</h3>
+        
+        <!-- Navigation Links -->
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished">Unfinished Business</a></li>
+                <li><a href="#new">New Business</a></li>
+                <li><a href="#comments">Comments/Questions/Concerns</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <h2>Attendance</h2>
-        <ul>
-            <li>John Doe</li>
-            <li>Jane Smith</li>
-            <li>Michael Johnson</li>
-        </ul>
-    </section>
+    <main>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <ul>
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+                <li>Michael Johnson</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Agenda</h2>
-        <ul>
-            <li>Review previous meeting minutes</li>
-            <li>Discuss current business operations</li>
-            <li>Plan for upcoming tasks</li>
-        </ul>
-    </section>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ul>
+                <li>Review previous meeting minutes</li>
+                <li>Discuss current business operations</li>
+                <li>Plan for upcoming tasks</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Unfinished Business</h2>
-        <p>No unfinished business from the previous meeting.</p>
-    </section>
+        <section id="unfinished">
+            <h2>Unfinished Business</h2>
+            <p>No unfinished business from the previous meeting.</p>
+        </section>
 
-    <section>
-        <h2>New Business</h2>
-        <ul>
-            <li>Proposal for marketing campaign</li>
-            <li>Discussion on hiring new team members</li>
-        </ul>
-    </section>
+        <section id="new">
+            <h2>New Business</h2>
+            <ul>
+                <li>Proposal for marketing campaign</li>
+                <li>Discussion on hiring new team members</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Comments/Questions/Concerns</h2>
-        <p>None.</p>
-    </section>
+        <section id="comments">
+            <h2>Comments/Questions/Concerns</h2>
+            <p>None.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>Audio recording of the meeting: <audio controls><source src="meeting_audio.mp3" type="audio/mpeg"></audio></p>
-        <p>Video recording of the meeting: <video controls><source src="meeting_video.mp4" type="video/mp4"></video></p>
+        <h2>Interactive Elements</h2>
+        <details>
+            <summary>Form</summary>
+            <form>
+                <fieldset>
+                    <legend>Meeting Feedback</legend>
+                    <label for="feedback">Please provide feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="rating">Rating:</label>
+                    <input type="range" id="rating" name="rating" min="1" max="10"><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </details>
     </footer>
 </body>
 </html>
