@@ -6,6 +6,7 @@ header {
   padding: 1em; /* em units */
   width: 500px;
   height: 2cm;
+  border: 2mm ridge rgba(21, 220, 50, .6);
 }
 nav ul li {
   margin-top: 2rem;
