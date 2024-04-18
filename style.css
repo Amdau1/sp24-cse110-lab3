@@ -2,3 +2,6 @@ header {
   color: red;
   background: green;
 }
+header {
+  padding: 2em; /* em units */
+}
