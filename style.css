@@ -6,8 +6,5 @@ header {
   padding: 2em; /* em units */
 }
 nav ul li {
-  margin-top: 100%; /* rem units */
-}
-body{
-  color: red;
+  margin-top: 30rem; /* rem units */
 }
