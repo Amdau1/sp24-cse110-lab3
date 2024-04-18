@@ -1,118 +1,108 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-/* Header */
+/* Comment: Apply colors to elements */
 header {
-    background-color: #333;
+    background-color: rgb(70, 130, 180); /* navy blue */
     color: white;
-    padding: 20px;
-}
-
-header h1, header h2, header h3 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Main */
-main {
-    padding: 20px;
+    color: #333; /* dark gray */
 }
 
 section {
-    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* white with 90% opacity */
 }
 
-section h2 {
-    color: #333;
+/* Comment: Apply background styles */
+body {
+    background-color: #f0f0f0; /* light gray */
 }
 
-section ul, section ol {
-    margin-top: 5px;
-    margin-bottom: 5px;
+/* Comment: Units of measurement */
+header {
+    padding: 20px;
 }
 
-section ul li, section ol li {
-    margin-left: 20px;
+nav ul li {
+    margin-right: 20px;
 }
 
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
     padding: 20px;
 }
 
-footer h2 {
-    color: white;
+/* Comment: Box Model */
+section {
+    margin-bottom: 20px; /* longhand */
+    padding: 10px 20px; /* shorthand */
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-footer details {
-    color: #ccc;
-    margin-bottom: 10px;
+/* Comment: Text */
+h1, h2, h3 {
+    color: #333; /* dark gray */
 }
 
-footer details summary {
-    cursor: pointer;
+a {
+    text-decoration: none;
 }
 
-footer form {
-    margin-top: 10px;
+/* Comment: Display */
+nav ul {
+    display: flex; /* flexbox */
 }
 
-footer form label {
-    display: block;
-    margin-bottom: 5px;
+nav ul li {
+    display: inline-block; /* inline-block */
 }
 
-footer form textarea {
+/* Comment: Sizing */
+footer {
+    max-width: 1200px;
+    margin: 0 auto; /* center horizontally */
+}
+
+/* Comment: Position */
+footer {
+    position: fixed; /* sticky footer */
+    bottom: 0;
+    left: 0;
     width: 100%;
-    margin-bottom: 5px;
-}
-
-footer form input[type="submit"] {
-    background-color: #555;
+    background-color: #333; /* dark gray */
     color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
 }
 
-footer form input[type="submit"]:hover {
-    background-color: #333;
+/* Comment: Pseudo-class */
+nav ul li a:hover {
+    color: #007bff; /* blue */
 }
 
-/* Section with ID Recording */
-#Recording {
-    background-color: #fff;
-    padding: 20px;
+/* Comment: Flexbox */
+main {
+    display: flex;
+    flex-wrap: wrap; /* wrap children */
+    justify-content: space-between; /* distribute space between children */
 }
 
-#Recording h2 {
-    color: #333;
+/* Comment: Grid */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* responsive grid */
+    grid-gap: 20px; /* gap between grid items */
 }
 
-#Recording h3 {
-    color: #333;
+/* Comment: Responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* stack items vertically */
+    }
+
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust grid for smaller screens */
+    }
 }
 
-#Recording p {
-    margin: 5px 0;
+/* Comment: Fonts */
+body {
+    font-family: 'Roboto', sans-serif; /* Google Font */
 }
