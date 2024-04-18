@@ -1,108 +1,119 @@
-/* Comment: Apply colors to elements */
-header {
-    background-color: rgb(70, 130, 180); /* navy blue */
-    color: white;
-}
-
-nav ul li a {
-    color: #333; /* dark gray */
-}
-
-section {
-    background-color: rgba(255, 255, 255, 0.9); /* white with 90% opacity */
-}
-
-/* Comment: Apply background styles */
+/* Body */
 body {
-    background-color: #f0f0f0; /* light gray */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-/* Comment: Units of measurement */
+/* Header */
 header {
+    background-color: #333;
+    color: white;
     padding: 20px;
 }
 
+header h1, header h2, header h3 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
-footer {
-    padding: 20px;
-}
-
-/* Comment: Box Model */
-section {
-    margin-bottom: 20px; /* longhand */
-    padding: 10px 20px; /* shorthand */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Comment: Text */
-h1, h2, h3 {
-    color: #333; /* dark gray */
-}
-
-a {
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
 
-/* Comment: Display */
-nav ul {
-    display: flex; /* flexbox */
+/* Main */
+main {
+    padding: 20px;
 }
 
-nav ul li {
-    display: inline-block; /* inline-block */
+section {
+    margin-bottom: 20px;
 }
 
-/* Comment: Sizing */
+section h2 {
+    color: #333;
+}
+
+section ul, section ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section ul li, section ol li {
+    margin-left: 20px;
+}
+
+/* Footer */
 footer {
-    max-width: 1200px;
-    margin: 0 auto; /* center horizontally */
+    background-color: #333;
+    color: white;
+    padding: 20px;
 }
 
-/* Comment: Position */
-footer {
-    position: fixed; /* sticky footer */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333; /* dark gray */
+footer h2 {
     color: white;
 }
 
-/* Comment: Pseudo-class */
-nav ul li a:hover {
-    color: #007bff; /* blue */
+footer details {
+    color: #ccc;
+    margin-bottom: 10px;
 }
 
-/* Comment: Flexbox */
-main {
-    display: flex;
-    flex-wrap: wrap; /* wrap children */
-    justify-content: space-between; /* distribute space between children */
+footer details summary {
+    cursor: pointer;
 }
 
-/* Comment: Grid */
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* responsive grid */
-    grid-gap: 20px; /* gap between grid items */
+footer form {
+    margin-top: 10px;
 }
 
-/* Comment: Responsiveness */
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* stack items vertically */
-    }
-
-    main {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust grid for smaller screens */
-    }
+footer form label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-/* Comment: Fonts */
-body {
-    font-family: 'Roboto', sans-serif; /* Google Font */
+footer form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+footer form input[type="submit"] {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Section with ID Recording */
+#Recording {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#Recording h2 {
+    color: #333;
+}
+
+#Recording h3 {
+    color: #333;
+}
+
+#Recording p {
+    margin: 5px 0;
 }
