@@ -3,7 +3,9 @@ header {
   background: green;
 }
 header {
-  padding: 2em; /* em units */
+  padding: 1em; /* em units */
+  width: 500px;
+  height: 8cm;
 }
 nav ul li {
   margin-top: 2rem;
