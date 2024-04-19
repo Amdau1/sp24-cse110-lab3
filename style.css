@@ -1,6 +1,7 @@
 header {
   color: red;
   background: green;
+  margin: auto;
 }
 header {
   padding: 1em;
@@ -12,7 +13,9 @@ nav ul li {
   margin-top: 2rem;
   font-size: 90%;
 }
-#attendance h2 {
-  color: red; /* Change "red" to the color you prefer */
-  margin: 100px 20px 15px 5px;
+#attendance ul {
+  margin-top: 100px;
+}
+#agenda ul {
+  margin: 10px 20px 15px 5px;
 }
