@@ -13,5 +13,6 @@ nav ul li {
   font-size: 90%;
 }
 #agenda {
+  color: red;
   margin: 10px 20px 15px 5px;
 }
