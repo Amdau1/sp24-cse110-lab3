@@ -14,8 +14,10 @@ nav ul li {
   font-size: 90%;
 }
 #attendance ul {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  color: red;
 }
 #agenda ul {
   margin: 20px 20px 15px 5px;
+  color: yellow;
 }
