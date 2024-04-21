@@ -11,10 +11,13 @@ header {
   border-color: red blue green;
   border-width: 0.5em;
   border-radius: 40px;
+  position: static;
 }
 nav ul li {
   margin-top: 2rem;
   font-size: 90%;
+  max-width: 20em;
+  min-width: 20em;
 }
 #attendance ul li {
   margin-top: 2rem;
@@ -30,4 +33,7 @@ nav ul li {
   text-decoration: underline;
   text-align: start;
   display: block;
+}
+#unfinishedbusiness p {
+  position: sticky;top:30px; left:1000px;
 }
