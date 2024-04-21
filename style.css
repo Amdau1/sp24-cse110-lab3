@@ -27,4 +27,7 @@ nav ul li {
 }
 #agenda ul li {
   margin: 20px 20px 15px 5px;
+  color: red;
+  text-decoration: underline;
+  text-align: start;
 }
