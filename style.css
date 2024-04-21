@@ -7,7 +7,10 @@ header {
   padding: 1em 1em 1em 1em;
   width: 250px;
   height: 2cm;
-  border: 2mm ridge rgba(21, 220, 50, .6);
+  border-style: inset;
+  border-color: red blue green;
+  border-width: 0.5em;
+  border-radius: 40px;
 }
 nav ul li {
   margin-top: 2rem;
@@ -15,6 +18,7 @@ nav ul li {
 }
 #attendance ul li {
   margin-top: 2rem;
+  color: pink;
 }
 #attendance h2 {
   padding-top: 1em;
