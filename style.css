@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
   color: red;
   background: green;
@@ -28,7 +29,7 @@ nav ul li {
 }
 #attendance ul li {
   margin-top: 2rem;
-  display: incline;
+  display: inline;
 }
 #attendance h2 {
   padding-top: 1em;
@@ -40,4 +41,7 @@ nav ul li {
   text-decoration: underline;
   text-align: start;
   display: block;
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
