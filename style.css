@@ -4,7 +4,7 @@ header {
   margin: auto;
 }
 header {
-  padding: 1em;
+  padding: 1em 1em 1em 1em;
   width: 250px;
   height: 2cm;
   border: 2mm ridge rgba(21, 220, 50, .6);
@@ -15,9 +15,12 @@ nav ul li {
 }
 #attendance ul li {
   margin-top: 2rem;
-  color: blue;
+}
+#attendance h2 {
+  padding-top: 1em
+  padding bottom: em
+  color: red;
 }
 #agenda ul li {
   margin: 20px 20px 15px 5px;
-  color: pink;
 }
