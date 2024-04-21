@@ -6,6 +6,9 @@ header {
 header:hover {
   background: blue;
 }
+header:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
 header {
   padding: 1em 1em 1em 1em;
   width: 250px;
