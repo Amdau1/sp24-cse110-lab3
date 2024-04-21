@@ -7,7 +7,7 @@ header:hover {
   background: blue;
 }
 header:active {
-  box-shadow: 2px 2px 5px #fc894d;
+  box-shadow: 2px 2px 5px red;
 }
 header {
   padding: 1em 1em 1em 1em;
