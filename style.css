@@ -3,6 +3,9 @@ header {
   background: green;
   margin: auto;
 }
+header:hover {
+  background: blue;
+}
 header {
   padding: 1em 1em 1em 1em;
   width: 250px;
