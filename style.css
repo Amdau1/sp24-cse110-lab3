@@ -18,7 +18,7 @@ nav ul li {
 }
 #attendance ul li {
   margin-top: 2rem;
-  display: none;
+  display: incline;
 }
 #attendance h2 {
   padding-top: 1em;
