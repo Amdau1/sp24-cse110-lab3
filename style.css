@@ -1,6 +1,6 @@
 header {
   color: red;
-  background: blue;
+  background: green;
   margin: auto;
 }
 header {
@@ -13,11 +13,11 @@ nav ul li {
   margin-top: 2rem;
   font-size: 90%;
 }
-#attendance ul {
+#attendance ul li {
   margin-top: 2rem;
-  color: red;
+  color: blue;
 }
-#agenda ul {
+#agenda ul li {
   margin: 20px 20px 15px 5px;
-  color: yellow;
+  color: pink;
 }
