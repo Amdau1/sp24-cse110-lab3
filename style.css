@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: red;
+  color: pink;
   background: green;
   margin: auto;
 }
@@ -47,9 +47,17 @@ body {
 }
 main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
 }
 nav ul {
   flex-wrap: wrap;
+}
+a:hover {
+    text-decoration: underline;
+}
+section#Notes {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Gap between grid items */
 }
