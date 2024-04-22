@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: yellow;
+  color: white;
   background: green;
   margin: auto;
 }
@@ -51,6 +51,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-nav ul {
+nav {
   flex-wrap: wrap;
 }
