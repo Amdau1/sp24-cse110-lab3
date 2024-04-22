@@ -54,3 +54,8 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust grid for smaller screens */
     }
 }
+main {
+    display: flex;
+    flex-wrap: wrap; /* wrap children */
+    justify-content: space-between; /* distribute space between children */
+}
