@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: purple;
+  color: red;
   background: green;
   margin: auto;
 }
@@ -19,6 +19,12 @@ header {
   border-width: 0.5em;
   border-radius: 40px;
   position: sticky; top:30px; left:1000px;
+}
+h2 {
+  color: blue;
+  display: grid; /* Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 10px; /* Gap between grid items */
 }
 nav ul li {
   margin-top: 2rem;
