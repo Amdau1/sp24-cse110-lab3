@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: blue;
+  color: red;
   background: green;
   margin: auto;
+  background-color: pink;
 }
 header:hover {
   background: blue;
