@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: red;
+  color: blue;
   margin: auto;
   background-color: pink;
 }
@@ -77,4 +77,10 @@ section#attendance{
 section#newbusiness {
   display: grid;
   grid-row: 1 / 4;
+}
+:root {
+    --newbusiness-background-color: #f0f0f0;
+}
+#newbusiness {
+    background-color: var(--newbusiness-background-color, #ffffff);
 }
