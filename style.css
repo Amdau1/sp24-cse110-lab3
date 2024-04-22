@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: red;
+  color: blue;
   background: green;
   margin: auto;
 }
@@ -65,12 +65,16 @@ main:hover {
     text-decoration: underline;
 }
 section#agenda {
-    display: grid; /* Grid layout */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
-    gap: 10px; /* Gap between grid items */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
 }
 section#attendance{
   color: green;
   display: grid;
   grid-auto-flow: column;
+}
+section#newbusiness {
+  display: grid;
+  grid-row: 1 / 4;
 }
