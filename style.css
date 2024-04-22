@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: red;
+  color: blue;
   background: green;
   margin: auto;
 }
@@ -20,12 +20,6 @@ header {
   border-radius: 40px;
   position: sticky; top:30px; left:1000px;
 }
-h2 {
-  color: blue;
-  display: grid; /* Grid layout */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
-  gap: 10px; /* Gap between grid items */
-}
 nav ul li {
   margin-top: 2rem;
   font-size: 90%;
@@ -41,12 +35,18 @@ nav ul li {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+#attendance ul li{
+  display: flex;
+  flex-grow: 10;
+}
 #agenda ul li {
   margin: 20px 20px 15px 5px;
   color: red;
   text-decoration: underline;
   text-align: start;
   display: block;
+  display: flex;
+  flex-wrap: wrap;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -59,12 +59,12 @@ main {
 nav ul {
   color: blue;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 main:hover {
     text-decoration: underline;
 }
-section#newbusiness {
+section#agenda {
     display: grid; /* Grid layout */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
     gap: 10px; /* Gap between grid items */
