@@ -45,3 +45,12 @@ nav ul li {
 body {
     font-family: 'Roboto', sans-serif;
 }
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* stack items vertically */
+    }
+
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust grid for smaller screens */
+    }
+}
