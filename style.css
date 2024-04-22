@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 header {
-  color: blue;
+  color: red;
   background: green;
   margin: auto;
 }
@@ -26,6 +26,7 @@ nav ul li {
   max-width: 20em;
   min-width: 20em;
   position: static;
+  flex-wrap: wrap;
 }
 #attendance ul li {
   margin-top: 2rem;
@@ -45,17 +46,8 @@ nav ul li {
 body {
     font-family: 'Roboto', sans-serif;
 }
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column; /* stack items vertically */
-    }
-
-    main {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust grid for smaller screens */
-    }
-}
 main {
     display: flex;
-    flex-wrap: wrap; /* wrap children */
-    justify-content: space-between; /* distribute space between children */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
