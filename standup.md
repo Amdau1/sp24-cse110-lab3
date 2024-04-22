@@ -12,28 +12,24 @@
 
 ---
 
-### Agenda:
+### Assignments:
 
-1. **Yesterday's Accomplishments:**
-   - [Brief summary of what each team member accomplished yesterday]
-
-2. **Today's Goals:**
-   - [Goals for each team member for today]
-
-3. **Blockers/Challenges:**
-   - [Any obstacles or challenges team members are facing]
+| Name | Assingment | Finished? |
+| ------------ |     -------------      |          ------------- |
+| Nmae 1   | Assignment 1     | yes/no    |
+| Name 2     | Assignment 2       | yes/no      |
 
 ---
 
-### Additional Notes:
+### Upcoming assignments:
 
-- [Any other relevant information or updates]
+- [New assignments due next week]
 
 ---
 
-### Action Items:
+### Thinga to do:
 
-- [Action item 1]
-- [Action item 2]
-- [Action item 3]
+- [item 1]
+- [item 2]
+- [item 3]
 
