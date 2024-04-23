@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*Styling the header*/
 header {
   color: red;
   margin: auto;
   background-color: pink;
-}
-header:hover {
-  background: blue;
-}
-header:active {
-  box-shadow: 2px 2px 5px red;
-}
-header {
   padding: 1em 1em 1em 1em;
   width: 250px;
   height: 2cm;
@@ -20,6 +13,14 @@ header {
   border-radius: 40px;
   position: sticky; top:30px; left:1000px;
 }
+/*blue when hovering over the header*/
+header:hover {
+  background: blue;
+}
+header:active {
+  box-shadow: 2px 2px 5px red;
+}
+/*Styling the different ids*/
 nav ul li {
   margin-top: 2rem;
   font-size: 90%;
@@ -48,6 +49,7 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
 }
+/*changing the font of the body*/
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -85,38 +87,38 @@ section#newbusiness {
     background-color: var(--newbusiness-background-color, #ffffff);
 }
 main {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
 }
+/*styling the media to be interactive*/
 @media screen and (max-width: 768px) {
     main {
         background-color: #f0f0f0;
     }
 }
+/*using .class*/
 .my-class {
     color: blue;
 }
+/*using id*/
 #my-id {
     font-weight: bold;
 }
+/*using the universal selctor for margin and padding*/
 * {
     margin: 0;
     padding: 0;
 }
+/* changing the size of the fonts*/
 h1 {
     font-size: 24px;
 }
 input[type="text"] {
     border: 1px solid gray;
 }
-a:hover {
-    color: red;
-}
 h2, p {
     font-family: Arial, sans-serif;
 }
-nav ul {
-    list-style-type: none;
-}
+/*using the combinators*/
 nav > ul {
     padding-left: 10px;
 }
@@ -131,7 +133,4 @@ ul.my-class {
 }
 ul:has(li) {
     border: 1px solid black;
-}
-section#agenda h2 {
-    color: green;
 }
