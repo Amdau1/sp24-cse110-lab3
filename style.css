@@ -92,3 +92,46 @@ main {
         background-color: #f0f0f0;
     }
 }
+.my-class {
+    color: blue;
+}
+#my-id {
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 24px;
+}
+input[type="text"] {
+    border: 1px solid gray;
+}
+a:hover {
+    color: red;
+}
+h2, p {
+    font-family: Arial, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+}
+nav > ul {
+    padding-left: 10px;
+}
+h2 ~ p {
+    margin-top: 10px;
+}
+h2 + p {
+    margin-top: 20px;
+}
+ul.my-class {
+    background-color: lightgray;
+}
+ul:has(li) {
+    border: 1px solid black;
+}
+section#agenda h2 {
+    color: green;
+}
